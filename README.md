@@ -12,7 +12,6 @@ You will need a few thins to get going with this app:
 - A Nexmo Messages & Dispatch App [[set one up here]](https://dashboard.nexmo.com/messages/create-application)
 - A Nexmo Voice App [[set one up here]](https://dashboard.nexmo.com/voice/create-application)
 - To buy Phone Number for Voice App [[set one up here]](https://dashboard.nexmo.com/buy-numbers)
-- A WhatsApp Business Account or SMS 2way Number
 
 To install the Python client library using pip:
 
