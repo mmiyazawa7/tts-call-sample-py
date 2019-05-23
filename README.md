@@ -9,7 +9,6 @@ This app is built using [Flask framework](http://flask.pocoo.org/) and require [
 You will need a few thins to get going with this app: 
 
 - A [Nexmo](https://nexmo.com) Account
-- A Nexmo Messages & Dispatch App [[set one up here]](https://dashboard.nexmo.com/messages/create-application)
 - A Nexmo Voice App [[set one up here]](https://dashboard.nexmo.com/voice/create-application)
 - To buy Phone Number for Voice App [[set one up here]](https://dashboard.nexmo.com/buy-numbers)
 
