@@ -46,7 +46,7 @@ def tts():
     ncco = [
         {
             "action": "talk",
-            "text": "<speak>こんにちは。テキストツースピーチのテストコールです。ワンタイムパスワードは、<prosody rate='slow'><say-as interpret-as='digits'>１２３４</say-as></prosody>です。発信先の電話番号は、<prosody rate='slow'><say-as interpret-as='digits'>"+ session['to'] + "</say-as></prosody> です。ではさようなら。</speak>",
+            "text": "ただいま午前９時開店のお時間です。受付を開始してください。お客様の鈴木様がまもなくいらっしゃいます。ご注文は、ポテトフライです。",
             "voiceName": "Mizuki",
             "eventURL": webhookurl+"/event"
         }
