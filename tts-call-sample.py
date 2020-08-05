@@ -47,10 +47,20 @@ def tts():
         {
             "action": "talk",
             "text": "ただいま午前９時開店のお時間です。受付を開始してください。お客様の鈴木様がまもなくいらっしゃいます。ご注文は、ポテトフライです。",
-            "voiceName": "Mizuki",
-            "eventURL": webhookurl+"/event"
+            "voiceName": "Mizuki"
+        }.
+        {
+    "action": "notify",
+    "payload": {
+      "tts_status": "completed"
+    },
+    "eventURL": [
+      webhookurl+"/event"
+    ],
+    "eventMethod": "POST"
         }
     ]
+    
     js = json.dumps(ncco)
     resp = Response(js, status=200, mimetype='application/json')
     print(resp)
