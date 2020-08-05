@@ -60,7 +60,7 @@ def tts():
             "eventMethod": "POST"
             }
     ]
-        
+
     js = json.dumps(ncco)
     resp = Response(js, status=200, mimetype='application/json')
     print(resp)
